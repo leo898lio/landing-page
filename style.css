@@ -145,31 +145,37 @@ p {
     }
 
 .quote-section {
-    width: 100%;
+    /* width: 100%; */
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
+.quote-section p {
+    width: 60%;
+}
     .quote-text {
         width: 43ch;
         font-size: 36px;
         font-style: italic;
         font-weight: 100;
         color: #1F2937;
+        margin-bottom: 0;
     }
 
     .quote-author {
-        display: flex;
+        /* display: flex;
         flex-direction: row;
-        justify-content: flex-end;
+        justify-content: flex-end; */
+        width: 43ch;
         font-style: normal;
         font-size: 18px; 
         font-weight: 700;
+        text-align: right;
     }
 
 footer {
